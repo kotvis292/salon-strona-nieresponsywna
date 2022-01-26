@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Open sans condensed";
+    font-size: 10px;
+
+    nav {}
+
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase
+    }
+
+    header {
+        background-image: url(img1.jpg);
+        height: 50vh;
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 13rem;
+        color: yellow;
+        line-height: 50vh;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 50%);
+    }
